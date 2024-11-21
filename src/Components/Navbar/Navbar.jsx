@@ -91,7 +91,7 @@ const Navbar = () => {
               />
             </div>
             <ul className="flex flex-col items-center gap-6 mt-10 text-[#FBC02D]">
-              {['home', 'About', 'special-dish', 'menu', 'reviews', 'contact', 'team'].map(
+              {['home', 'About', 'special-dish', 'menu', 'reviews'].map(
                 (section) => (
                   <a
                     key={section}
@@ -146,18 +146,8 @@ const Navbar = () => {
                 >
                   Reviews
                 </a>
-                <a
-                  href="#contact"
-                  className={`nav-link ${activeLink === '#contact' ? 'active' : ''}`}
-                >
-                  Contact
-                </a>
-                <a
-                  href="#team"
-                  className={`nav-link ${activeLink === '#team' ? 'active' : ''}`}
-                >
-                  Team
-                </a>
+               
+                
               </div>
             </div>
           </div>

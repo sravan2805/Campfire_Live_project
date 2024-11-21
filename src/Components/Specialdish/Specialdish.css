@@ -18,24 +18,26 @@
 
 /* Signature Badge */
 .signature-badge {
-  background-color: #f5d742;
-  color: #333;
-  display: inline-block;
-  padding: 8px 16px; /* Reduced padding */
-  border-radius: 50px;
-  font-family: 'Lobster', cursive;
-  font-size: 24px; /* Reduced font size */
-  margin-top: 95px; /* Reduced margin */
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    color:yellow;
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
 }
 
 /* Title and Description */
 .dish-title {
-  font-size: 2.5em; /* Default font size */
-  color: #ffffff;
-  margin: 10px 0; /* Reduced vertical margin */
-  font-family: 'Dancing Script', cursive;
-  text-shadow: 2px 4px 4px rgba(223, 219, 219, 0.7);
+    font-size: 3em;
+    color: #ffffff;
+    margin: 10px 0;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 20px 40px 40px rgba(223, 219, 219, 0.7);
 }
+
+
+
 
 .dish-description {
   font-size: 1.5em; /* Default font size */

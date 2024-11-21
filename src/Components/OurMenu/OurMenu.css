@@ -1,0 +1,11 @@
+.menu { 
+    background-color: rgba(0, 0, 0, 0.3); 
+    backdrop-filter: blur(10px);
+    position: fixed;  /* Make the navbar fixed */
+    top: 0;  /* Align to the top of the page */
+    left: 0;  /* Align to the left edge */
+    width: 100%;  /* Full width of the screen */
+    z-index: 1000;  /* Ensure it stays on top of other content */
+    padding: 10px 20px;  /* Adjust padding if needed */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);  /* Optional: adds a slight shadow for visibility */
+}
