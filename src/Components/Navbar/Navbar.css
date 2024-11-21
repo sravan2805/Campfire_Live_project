@@ -1,0 +1,52 @@
+/* Basic styling for the navbar */
+.nav-container {
+  width: 100%;
+  position: fixed;
+  gap: 1rem;
+  top: 0;
+  left: 0;
+  color: #fff;
+  z-index: 1000;
+  padding: 15px 40px; /* Increased padding for larger screens */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.bg-black {
+  background-color: black;
+}
+
+.bg-opacity-100 {
+  opacity: 1;
+}
+
+.h-15 {
+  height: 4rem; /* Converts to 60px */
+}
+
+.nav-content {
+  display: flex;
+  font-size: x-large;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  height: 50px; /* Larger logo for larger screens */
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px; /* Increased gap between nav links for larger screens */
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: x-large; /* Larger font size for larger screens */
+  font-weight: bold;
+  transition: color 0.3s ease;
+}

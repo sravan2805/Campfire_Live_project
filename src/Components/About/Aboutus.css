@@ -1,0 +1,236 @@
+
+/* AboutUs.css */
+.about-container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1) 1px, transparent 1px);
+    background-size: 100% 4px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 35px;
+  }
+  
+  .about-content {
+    max-width: 1200px;
+    width: 100%;
+    position: relative;
+    padding: 20px;
+  }
+  
+  .about-title {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    color:yellow;
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+  }
+  
+  .title-underline {
+    width: 80px;
+    height: 4px;
+    background-color: white;
+    margin: 0 auto 40px;
+  }
+  
+  .about-layout {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    position: relative;
+  }
+  
+  .moon-shape {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    flex-shrink: 0;
+  }
+  
+  .image-container {
+    width:300px;
+    height: 350px;
+    border-radius: 50%;
+    overflow:hidden;
+    border: 8px solid white;
+    position: absolute;
+    padding: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .food-image {
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+  }
+  
+  .text-content {
+    flex: 1;
+  }
+  
+  .quote {
+    font-family: cursive;
+    font-size: 5rem;
+    margin-bottom: 20px;
+    font-style: italic;
+    font-family: 'Dancing Script', cursive;
+  }
+  
+  .description {
+    font-size: 32px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    padding-left: 100px;
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  .tagline {
+    font-size: 23px;
+    font-style: italic;
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  .crown-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 2rem;
+    opacity: 0.5;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .about-layout {
+      flex-direction: column;
+      text-align: center;
+    }
+    
+    .moon-shape {
+      width: 200px;
+      height: 200px;
+    }
+    
+    .image-container {
+      width: 150px;
+      height: 150px;
+    }
+    
+    .about-title {
+      font-size: 2.5rem;
+    }
+    
+    .quote {
+      font-size: 1.8rem;
+    }
+    
+    .description {
+      font-size: 1.1rem;
+    }
+    
+    .tagline {
+      font-size: 1.2rem;
+    }
+  }
+
+  /* Responsive Design */
+@media (max-width: 768px) {
+  .about-layout {
+      flex-direction: column;
+      text-align: center;
+      gap: 20px;
+  }
+  
+  .moon-shape {
+      width: 200px;
+      height: 200px;
+  }
+  
+  .image-container {
+      width: 180px;
+      height: 180px;
+  }
+  
+  .about-title {
+      font-size: 2rem;
+  }
+  
+  .title-underline {
+      width: 50px;
+      height: 2px;
+      margin-bottom: 15px;
+  }
+
+  .quote {
+      font-size: 1.5rem;
+  }
+  
+  .description {
+      font-size: 1rem;
+      line-height: 1.4;
+      padding-left: 10px;
+  }
+  
+  .tagline {
+      font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-title {
+      font-size: 1.8rem;
+      margin-bottom: 15px;
+  }
+
+  .title-underline {
+      width: 40px;
+      height: 2px;
+      margin-bottom: 10px;
+  }
+
+  .moon-shape {
+      width: 150px;
+      height: 150px;
+  }
+
+  .image-container {
+      width: 140px;
+      height: 140px;
+  }
+
+  .quote {
+      font-size: 1.3rem;
+      margin-bottom: 10px;
+  }
+  
+  .description {
+      font-size: 0.9rem;
+      line-height: 1.3;
+      padding-left: 5px;
+  }
+  
+  .tagline {
+      font-size: 0.8rem;
+  }
+}
+
+/* Smooth transitions */
+.image-container {
+  transition: transform 0.3s ease;
+}
+
+.image-container:hover {
+  transform: translate(-50%, -50%) scale(1.05);
+}
+  
+  /* Smooth transitions */
+  .image-container {
+    transition: transform 0.3s ease;
+  }
+  
+  .image-container:hover {
+    transform: translate(-50%, -50%) scale(1.05);
+  }
+  
