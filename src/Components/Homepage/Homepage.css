@@ -209,6 +209,9 @@
     .hero-description {
       font-size: 0.875rem;
     }
+    .hero-container{
+      min-height: 80vh;
+    }
   }
   
   @media (min-width: 768px) {
