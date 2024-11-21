@@ -1,44 +1,49 @@
 import React from 'react';
 import './Reviewpage.css';
 
+// Import images
+import ReviewImg1 from '../../assets/Review_img1.jpg';
+import ReviewImg2 from '../../assets/Review_img2.jpg';
+import ReviewImg3 from '../../assets/Review_img3.jpg';
+import ReviewImg4 from '../../assets/Review_img4.jpg';
+
 const TestimonialsSection = () => {
   const testimonials = [
     {
       name: 'Lakshmi',
       rating: 5,
-      text: 'A customer praised Campfire Restaurant for its excellent service..',
-      image: '/src/assets/Review_img1.jpg',
+      text: 'The ambience of Campfire Restaurant is absolutely wonderful, and the food quality is exceptional. A must-visit!',
+      image: ReviewImg1,
     },
-   
     {
       name: 'Lakshmi',
       rating: 5,
-      text: 'A customer praised Campfire Restaurant for its excellent service..',
-      image: '/src/assets/Review_img1.jpg',
+      text: 'The service was fast and friendly, and the dishes were a perfect blend of flavors. Highly recommended!',
+      image: ReviewImg2,
     },
     {
       name: 'Suresh M',
       rating: 5,
-      text: 'A customer praised Campfire Restaurant for its excellent service..',
-      image: '/src/assets/Review_img2.jpg',
+      text: 'Campfire Restaurant delivers a perfect blend of delicious food, cozy ambiance, and excellent service. A great place for families!',
+      image: ReviewImg3,
     },
     {
       name: 'Emily Carter',
       rating: 5,
-      text: 'Campfire Restaurant delivers a perfect blend of delicious food',
-      image: '/src/assets/Review_img3.jpg',
+      text: 'The open-air dining experience is so refreshing, and the food was top-notch. Perfect for small celebrations!',
+      image: ReviewImg1,
     },
     {
       name: 'Olivia Parker',
       rating: 5,
-      text: 'The restaurant offers an unforgettable dining experience with warm.',
-      image: '/src/assets/Review_img4.jpg',
+      text: 'The dishes were delicious, though the waiting time was slightly longer during peak hours. Overall, a great experience!',
+      image: ReviewImg3,
     },
     {
       name: 'Olivia Parker',
       rating: 5,
-      text: 'A customer praised Campfire Restaurant for its excellent service..ustomer praised Campfire Restaurant for its excellent service.',
-      image: '/src/assets/Review_img4.jpg',
+      text: 'Amazing place! The staff was very welcoming, and the restaurant had a warm and cozy atmosphere. Loved it!',
+      image: ReviewImg4,
     },
   ];
 
@@ -69,7 +74,7 @@ const TestimonialsSection = () => {
                 <p className="testimonial-text">{testimonial.text}</p>
                 <p className="testimonial-name">{testimonial.name}</p>
               </div>
-            </div>  
+            </div>
           ))}
         </div>
 

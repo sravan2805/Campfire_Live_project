@@ -12,6 +12,7 @@
   text-align: center;
   color: #ffffff;
   padding: 10px; /* Reduced container padding */
+  padding-top: 50px;
   font-family: 'Roboto', sans-serif;
   position: relative;
 }
