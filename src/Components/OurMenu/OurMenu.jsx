@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { MenuData } from '../../assets/assets';
-import './Ourmenu.css'
+import './OurMenu.css'
 import { useNavigate } from 'react-router-dom';
 import { veg_biryani, Non_veg_biryani, VegFriedrice, nonvegFriedrice, vegsoups, nonvegsoups, curries_non_veg, curries_veg, Roti, Starters_babycorn, Starters_chicken, Starters_egg, Starters_fish, Starters_gobi, Starters_mushroom, Starters_mutton, Starters_panner, Starters_prawns, Starters_veg_spl, tandoori } from '../../assets/assets';
 
