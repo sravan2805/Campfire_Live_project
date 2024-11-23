@@ -17,7 +17,7 @@ const RestaurantBanner = () => {
       display: flex;
       align-items: center;
       justify-content: center;
-      min-height: 100vh;
+      min-height: 10vh;
       width: 100%;
       font-family: 'Dancing Script', cursive;
     }
@@ -81,6 +81,7 @@ const RestaurantBanner = () => {
     /* Responsive Design Adjustments */
     @media (max-width: 768px) {
       .banner-container {
+        min-height: 10vh;
         flex-direction: column;
         padding: 0; /* Remove all padding */
       }
@@ -111,6 +112,7 @@ const RestaurantBanner = () => {
     @media (max-width: 480px) {
       .banner-container {
         padding: 0;
+        min-height: 10vh;
       }
 
       .image-frame {
